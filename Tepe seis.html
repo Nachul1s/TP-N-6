@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        p {
+            color: blue;
+        }
+
+        h3 {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> TP Nº6</h1>
+    <h3> 1.1- ¿Qué significa CSS?</h3>
+    <p> Significa Cascading Style Sheets</p>
+    <h3> 1.2- ¿Para qué sirve el CSS? ¿Qué programa se utiliza para interpretar el CSS? (es para 🧠) Guía de conceptos
+    </h3>
+    <p> Sirve para personalizar nuestra pagina de HTML (web, el programa que lo interpreta es el navegador.) </p>
+    <h3> 1.3- ¿A qué se llama regla de CSS? </h3>
+    <p> Se le llama reglas al selector, Declaracion, Propiedades, Valor de la propiedad. </p>
+    <h3>1.4- ¿Cuál es la anatomía de la regla de CSS? Agregar imagen explicativa y utilizando una lista descriptiva
+        explicar sus elementos. </h3>
+    <h3> La anatomia es la regla reflejada en pantalla <br>
+        <img src="ejemplodeJP.png" width="250">
+        <dl>
+            <dt>SELECTOR</dt>
+            <dd>Selecciona el o los elementos a dar estilo.</dd>
+            <dt>Declaracion</dt>
+            <dd> </dd>
+            <dt>Propiedades</dt>
+            <dd></dd>
+            <dt>Valor de la propiedad</dt>
+        </dl>
+    </h3>
+    <h3>1.5- ¿Qué es un selector en CSS? </h3>
+
+    <p>Selector: selecciona el(los) elemento(s) a dar estilo (en este caso, los elementos p ). Para dar estilo a un
+        elemento diferente, solo cambia el selector.</p>
+
+    <h3>Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente. </h3>
+    <p>ID:El atributo ID de HTML identifica a un elemento HTML por medio de un nombre. </p>
+    <p>Clase:Genera un grupo (una clase) </p>
+    <p>Universal:Nos permite aplicar estilos a todos los elementos HTML de un documento y se indica mediante el * </p>
+    <p>Etiqueta:Es un selector de etiquetas para condicionarlas con X etiqueta </p>
+    <p>Descendente:Con este selector seleccionamos un elemento que está dentro de otro del mismo tipo. El último
+        selector será el elemento HTML al que se le aplicará las propiedades de CSS.</p>
+    <br>
+    <h3>1.7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS? Guía para respuesta </h3>
+
+    <h2> CSS</h2>
+    <ol>
+        <li>El navegador carga el HTML, cargandolo la red</li>
+        <li>Convierte el HTML en un DOM (Modelo de objetos del documento). El DOM representa el documento en la memoria
+            del ordenador. Lo explicaremos más detalladamente en la sección siguiente.</li>
+        <li>Entonces, el navegador va a buscar la mayor parte de los recursos vinculados al documento HTML, como las
+            imágenes y los videos incrustados... ¡y también el CSS vinculado! JavaScript aparece un poco más adelante en
+            el proceso, pero no vamos a hablar de ello aún para evitar complicar las cosas.</li>
+        <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de selector.
+            Por ejemplo, elemento, clase, ID, y así sucesivamente. Para cada tipo de selector que encuentre, calcula qué
+            reglas deben aplicarse y a qué nodos en el DOM se les aplica el estilo según corresponda (este paso
+            intermedio se llama árbol de renderización).</li>
+        <li>El árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle las
+            reglas.</li>
+        <li>En la pantalla se muestra el aspecto visual de la página (esta etapa se llama pintura).</li>
+    </ol>
+    <h3>¿Cuáles son las tres formas para vincular CSS con HTML? </h3>
+    <p>Usando la etiqueta style, El atributo Style y un archivo externo </p>
+    <h3>1.9- Ingrese al sitio CSS Zen Garden http://www.csszengarden.com y analicemos el código HTML siguiendo los
+        siguientes pasos:<br>
+        Hacer clic en View All Designs <br>
+        Elegir dos diseños y abrirlo en pestañas distintas <br>
+        En el primer diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador) <br>
+        En el segundo diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+        <br>
+        Escribir la URL de los dos diseños seleccionados y responder: las etiquetas dentro de body ¿son iguales? ¿Qué es
+        lo distinto? ¿Qué contribuye al cambio de diseño? <br>
+        Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos? <br>
+        En líneas generales, el mismo HTML ¿puede tener diferentes diseños?
+    </h3>
+
+    <a href="https://www.csszengarden.com/202/">1º Ejemplo</a> <br>
+    <a href="https://www.csszengarden.com/199/">2º Ejemplo</a>
+    <p> Son el mismo codigo, lo que cambia o lo distinto es el codigo de CSS, lo contribuye su cambio de diseño es su
+        estructura de CSS, en parte lo de css, no son codigos iguales, </p>
+
+    <h2> Ejercicio 2: Práctica Inicial de CSS
+    </h2>
+    <h3>2.0- Utilizaremos las siguientes propiedades de CSS. Completar la columna de valores posibles para cada
+        propiedad. </h3>
+
+    <table>
+
+        <tr>
+            <th> Valores posibles</th>
+
+        </tr>
+        <tr>
+            <td> Sus valores posibles pueden ser del color por defecto como, blue. yellow, red y tambien pueden ser
+                elegidos en hexadecimal </td>
+        </tr>
+        <tr>
+            <td> Lo mismo, el color de fondo puede ser por defecto o seleccionado por hexadecimal </td>
+        </tr>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr>
+            <td> El Font-Size es la escala de la letra (o de la fuente) por ejemplo, em </td>
+        </tr>
+        <tr>
+            <td> La propiedad font-weight de CSS especifica el peso o grueso de la letra. Ej: ("font-weight: 100;")  </td>
+        </tr>
+        <tr>
+            <td>  La propiedad font-style permite definir el aspecto de una familia tipográfica entre los valores: normal, italic (cursiva) y oblique.       </td>
+        </tr>
+        <tr>
+            <td> La propiedad font-family define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado. (Puede ser puede ser un &lt;nombre de familia &gt; o un &lt;nombre genérico&gt; )           </td>
+        </tr>
+        <tr>
+            <td> La propiedad de text-align define posicion del texto, si es centrado o latrealizado hacia la izquierda o derecha. ejemplo:(text-align: left; , text-align: right;  ,  text-align: center)     </td>
+        </tr>
+
+        <tr>
+            <td> La decoraciòn de texto es para tacharlo, subrayarlo o parpadearlo, entre otros, por ejemplo: "text-decoration: underline red;" "la class= "line" dentro de un parrafo"   </td>
+        </tr>
+            <tr>
+                <td> "text-transform: capitalize;" Sirve para poner la primer mayuscula en cada parrafo
+                    text-transform: uppercase; Sirve para poner el texto en mayuscula
+                    text-transform: lowercase; Sirve para poner el texto en miniscula </td>
+            </tr>
+            <tr>
+                <td> "letter-spacing: normal;" el espaciado entre letras va a ser normal
+                    "letter-spacing: .2rem;" el espaciado entre letras se va adaptando a la Resolucion de la pantalla
+                    "letter-spacing: -1px;" el espaciado entre letras se adapta al valor determinado elegido por el usuario por ejemplo -1px </td>
+            </tr>
+            <tr>
+                <td>line-height: normal,  2.5, 3m, 150%  </td>
+            </tr>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
